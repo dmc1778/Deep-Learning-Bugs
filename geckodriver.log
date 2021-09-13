@@ -1,0 +1,1286 @@
+1630789083211	geckodriver	INFO	Listening on 127.0.0.1:38897
+1630789083215	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileV4gWEU"
+1630789083503	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileV4gWEU/search.json.mozlz4", (void 0)))
+1630789084600	Marionette	INFO	Listening on port 38905
+1630789084634	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1630789086762	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1630789256483	geckodriver	INFO	Listening on 127.0.0.1:38747
+1630789256487	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileoOmtwb"
+1630789256761	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileoOmtwb/search.json.mozlz4", (void 0)))
+1630789257900	Marionette	INFO	Listening on port 41355
+1630789257998	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1630789258557	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1630789359317	geckodriver	INFO	Listening on 127.0.0.1:46819
+1630789359321	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilevKqZg9"
+1630789359599	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilevKqZg9/search.json.mozlz4", (void 0)))
+1630789360739	Marionette	INFO	Listening on port 39103
+1630789360833	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1630789361345	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1630789396163	geckodriver	INFO	Listening on 127.0.0.1:51507
+1630789396167	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileLf6EZT"
+1630789396446	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileLf6EZT/search.json.mozlz4", (void 0)))
+1630789397662	Marionette	INFO	Listening on port 46501
+1630789397680	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1630789398254	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1630789409508	geckodriver	INFO	Listening on 127.0.0.1:45741
+1630789409512	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileTO4Uwg"
+1630789409786	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileTO4Uwg/search.json.mozlz4", (void 0)))
+1630789410851	Marionette	INFO	Listening on port 33497
+1630789410927	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1630789411499	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1630789422659	geckodriver	INFO	Listening on 127.0.0.1:40933
+1630789422663	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileM4NLkH"
+1630789422950	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileM4NLkH/search.json.mozlz4", (void 0)))
+1630789423991	Marionette	INFO	Listening on port 42907
+1630789424085	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1630789424657	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1630789494680	geckodriver	INFO	Listening on 127.0.0.1:40829
+1630789494684	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileoLQVJx"
+1630789494968	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileoLQVJx/search.json.mozlz4", (void 0)))
+1630789496044	Marionette	INFO	Listening on port 44599
+1630789496096	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1630789496590	Marionette	INFO	Stopped listening on port 44599
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1630789498569	geckodriver	INFO	Listening on 127.0.0.1:46051
+1630789498573	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileMoVlHv"
+1630789498849	Marionette	INFO	Marionette enabled
+1630789502628	geckodriver	INFO	Listening on 127.0.0.1:57157
+1630789502632	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile9Fwg8R"
+1630789502912	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile9Fwg8R/search.json.mozlz4", (void 0)))
+1630789503864	Marionette	INFO	Listening on port 35451
+1630789503944	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1630789504969	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1630789520957	geckodriver	INFO	Listening on 127.0.0.1:45997
+1630789520961	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilekXRUFl"
+1630789521234	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilekXRUFl/search.json.mozlz4", (void 0)))
+1630789522356	Marionette	INFO	Listening on port 46225
+1630789522374	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1630789522911	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1630789560912	geckodriver	INFO	Listening on 127.0.0.1:38743
+1630789560916	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilemtnYR5"
+1630789561202	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilemtnYR5/search.json.mozlz4", (void 0)))
+1630789562276	Marionette	INFO	Listening on port 46753
+1630789562328	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1630789562912	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1630789979063	geckodriver	INFO	Listening on 127.0.0.1:42923
+1630789979067	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilepVvJoV"
+1630789979347	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilepVvJoV/search.json.mozlz4", (void 0)))
+1630789980475	Marionette	INFO	Listening on port 35169
+1630789980580	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1630789981134	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1630790039873	geckodriver	INFO	Listening on 127.0.0.1:41521
+1630790039876	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileUwEmj9"
+1630790040154	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileUwEmj9/search.json.mozlz4", (void 0)))
+1630790041331	Marionette	INFO	Listening on port 35395
+1630790041389	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1630790042441	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1630790155899	geckodriver	INFO	Listening on 127.0.0.1:54485
+1630790155903	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileunLPnI"
+1630790156182	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileunLPnI/search.json.mozlz4", (void 0)))
+1630790157317	Marionette	INFO	Listening on port 40399
+1630790157416	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1630790158009	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1630790159235	Marionette	INFO	Stopped listening on port 40399
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1630790219589	geckodriver	INFO	Listening on 127.0.0.1:43501
+1630790219593	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiles7PPB5"
+1630790219870	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiles7PPB5/search.json.mozlz4", (void 0)))
+1630790220971	Marionette	INFO	Listening on port 43855
+1630790221010	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1630790222249	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1630790391893	geckodriver	INFO	Listening on 127.0.0.1:41485
+1630790391897	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile5guUzP"
+1630790392175	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile5guUzP/search.json.mozlz4", (void 0)))
+1630790393215	Marionette	INFO	Listening on port 45241
+1630790393310	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1630790393877	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1630790476747	geckodriver	INFO	Listening on 127.0.0.1:54379
+1630790476751	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilevaPteK"
+1630790477030	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilevaPteK/search.json.mozlz4", (void 0)))
+1630790478235	Marionette	INFO	Listening on port 39143
+1630790478264	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1630790478889	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1630790640746	geckodriver	INFO	Listening on 127.0.0.1:36971
+1630790640750	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilef4aFS7"
+1630790641029	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilef4aFS7/search.json.mozlz4", (void 0)))
+1630790642603	Marionette	INFO	Listening on port 42535
+1630790642663	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1630790643658	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1630790666145	geckodriver	INFO	Listening on 127.0.0.1:49809
+1630790666148	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilecnouYq"
+1630790666425	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilecnouYq/search.json.mozlz4", (void 0)))
+1630790667480	Marionette	INFO	Listening on port 37115
+1630790667566	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1630790668122	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1630790711984	geckodriver	INFO	Listening on 127.0.0.1:54197
+1630790711987	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileV6r37p"
+1630790712271	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileV6r37p/search.json.mozlz4", (void 0)))
+1630790713297	Marionette	INFO	Listening on port 39735
+1630790713400	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1630790714371	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1630790769977	geckodriver	INFO	Listening on 127.0.0.1:51927
+1630790769981	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileouuTbX"
+1630790770257	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileouuTbX/search.json.mozlz4", (void 0)))
+1630790771224	Marionette	INFO	Listening on port 37075
+1630790771294	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1630790771848	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1630791021723	geckodriver	INFO	Listening on 127.0.0.1:47447
+1630791021726	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilexNPZQF"
+1630791022002	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilexNPZQF/search.json.mozlz4", (void 0)))
+1630791023064	Marionette	INFO	Listening on port 33271
+1630791023141	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1630791023805	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1630791545063	geckodriver	INFO	Listening on 127.0.0.1:44759
+1630791545068	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilea6bQdI"
+1630791545347	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilea6bQdI/search.json.mozlz4", (void 0)))
+1630791546433	Marionette	INFO	Listening on port 36307
+1630791546482	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1630791547028	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1630791577981	geckodriver	INFO	Listening on 127.0.0.1:39087
+1630791577984	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile1XJn0N"
+1630791578266	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile1XJn0N/search.json.mozlz4", (void 0)))
+1630791579403	Marionette	INFO	Listening on port 36593
+1630791579501	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1630791580070	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1630791624257	geckodriver	INFO	Listening on 127.0.0.1:49761
+1630791624261	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilej15ORv"
+1630791624533	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilej15ORv/search.json.mozlz4", (void 0)))
+1630791625652	Marionette	INFO	Listening on port 35687
+1630791625673	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1630791626271	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1630791683385	geckodriver	INFO	Listening on 127.0.0.1:37229
+1630791683389	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilelAdnCt"
+1630791683663	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilelAdnCt/search.json.mozlz4", (void 0)))
+1630791684745	Marionette	INFO	Listening on port 36743
+1630791684802	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1630791685404	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1630791696954	geckodriver	INFO	Listening on 127.0.0.1:42935
+1630791696958	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile6qWR9r"
+1630791697234	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile6qWR9r/search.json.mozlz4", (void 0)))
+1630791698337	Marionette	INFO	Listening on port 43021
+1630791698371	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1630791698913	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1630791710568	geckodriver	INFO	Listening on 127.0.0.1:34071
+1630791710571	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile5yeYQ7"
+1630791710846	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile5yeYQ7/search.json.mozlz4", (void 0)))
+1630791711989	Marionette	INFO	Listening on port 39623
+1630791712084	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1630791713050	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1630791722391	geckodriver	INFO	Listening on 127.0.0.1:60183
+1630791722394	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileqDs1hA"
+1630791722669	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileqDs1hA/search.json.mozlz4", (void 0)))
+1630791723680	Marionette	INFO	Listening on port 33567
+1630791723707	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1630791724270	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1630791754268	geckodriver	INFO	Listening on 127.0.0.1:52119
+1630791754271	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiletMJq1A"
+1630791754544	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiletMJq1A/search.json.mozlz4", (void 0)))
+1630791755648	Marionette	INFO	Listening on port 45229
+1630791755691	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1630791756232	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1630792019005	geckodriver	INFO	Listening on 127.0.0.1:32865
+1630792019008	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileSwqJEj"
+1630792019286	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileSwqJEj/search.json.mozlz4", (void 0)))
+1630792020330	Marionette	INFO	Listening on port 40941
+1630792020421	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1630792020956	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1630792166080	geckodriver	INFO	Listening on 127.0.0.1:56693
+1630792166083	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileXoWEUW"
+1630792166366	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileXoWEUW/search.json.mozlz4", (void 0)))
+1630792167465	Marionette	INFO	Listening on port 36201
+1630792167495	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1630792168031	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1630792183685	geckodriver	INFO	Listening on 127.0.0.1:55169
+1630792183688	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileZRNGCU"
+1630792184018	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileZRNGCU/search.json.mozlz4", (void 0)))
+1630792185475	Marionette	INFO	Listening on port 39855
+1630792185501	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1630792186504	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1630792450306	geckodriver	INFO	Listening on 127.0.0.1:37239
+1630792450309	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile3BnUAo"
+1630792450590	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile3BnUAo/search.json.mozlz4", (void 0)))
+1630792451677	Marionette	INFO	Listening on port 33179
+1630792451721	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1630792452382	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1630792655499	geckodriver	INFO	Listening on 127.0.0.1:49775
+1630792655503	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileqlXxth"
+1630792655789	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileqlXxth/search.json.mozlz4", (void 0)))
+1630792656928	Marionette	INFO	Listening on port 39373
+1630792657016	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1630792657639	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1630792707263	geckodriver	INFO	Listening on 127.0.0.1:54995
+1630792707267	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileJmo7dv"
+1630792707546	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileJmo7dv/search.json.mozlz4", (void 0)))
+1630792708560	Marionette	INFO	Listening on port 41011
+1630792708582	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1630792709175	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1630792724996	geckodriver	INFO	Listening on 127.0.0.1:33431
+1630792724999	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilefQCGvh"
+1630792725276	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilefQCGvh/search.json.mozlz4", (void 0)))
+1630792726308	Marionette	INFO	Listening on port 45353
+1630792726411	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1630792727039	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1630792740448	geckodriver	INFO	Listening on 127.0.0.1:50805
+1630792740451	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileQDUYtg"
+1630792740724	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileQDUYtg/search.json.mozlz4", (void 0)))
+1630792741785	Marionette	INFO	Listening on port 40025
+1630792741864	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1630792742456	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1630793013280	geckodriver	INFO	Listening on 127.0.0.1:49013
+1630793013283	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileeLUKVY"
+1630793013560	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileeLUKVY/search.json.mozlz4", (void 0)))
+1630793014672	Marionette	INFO	Listening on port 36023
+1630793014699	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1630793015297	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1630793085714	geckodriver	INFO	Listening on 127.0.0.1:54153
+1630793085718	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileheDUTb"
+1630793085994	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileheDUTb/search.json.mozlz4", (void 0)))
+1630793087010	Marionette	INFO	Listening on port 34943
+1630793087031	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1630793087587	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1630793105052	geckodriver	INFO	Listening on 127.0.0.1:50619
+1630793105056	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile8jaDVF"
+1630793105335	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile8jaDVF/search.json.mozlz4", (void 0)))
+1630793106462	Marionette	INFO	Listening on port 35447
+1630793106584	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1630793107186	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1630793134905	geckodriver	INFO	Listening on 127.0.0.1:36919
+1630793134908	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileoxvSU7"
+1630793135184	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileoxvSU7/search.json.mozlz4", (void 0)))
+1630793136230	Marionette	INFO	Listening on port 39305
+1630793136321	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1630793136892	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1630793203855	geckodriver	INFO	Listening on 127.0.0.1:37305
+1630793203859	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileVM7cmg"
+1630793204132	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileVM7cmg/search.json.mozlz4", (void 0)))
+1630793205243	Marionette	INFO	Listening on port 34331
+1630793205272	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1630793205884	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1630793214711	geckodriver	INFO	Listening on 127.0.0.1:59301
+1630793214714	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile6pZYBr"
+1630793215010	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile6pZYBr/search.json.mozlz4", (void 0)))
+1630793216570	Marionette	INFO	Listening on port 40623
+1630793216628	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1630793217208	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1630793268262	geckodriver	INFO	Listening on 127.0.0.1:56775
+1630793268266	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile4kdxY9"
+1630793268540	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile4kdxY9/search.json.mozlz4", (void 0)))
+1630793269590	Marionette	INFO	Listening on port 37611
+1630793269678	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1630793270211	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1630793325195	geckodriver	INFO	Listening on 127.0.0.1:36497
+1630793325198	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileMG4aGR"
+1630793325476	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileMG4aGR/search.json.mozlz4", (void 0)))
+1630793326523	Marionette	INFO	Listening on port 41109
+1630793326610	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1630793327570	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1630793399152	geckodriver	INFO	Listening on 127.0.0.1:39439
+1630793399155	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileEmF7LZ"
+1630793399430	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileEmF7LZ/search.json.mozlz4", (void 0)))
+1630793400513	Marionette	INFO	Listening on port 45445
+1630793400570	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1630793401112	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1630793425304	geckodriver	INFO	Listening on 127.0.0.1:37905
+1630793425308	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilezZFfRI"
+1630793425581	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilezZFfRI/search.json.mozlz4", (void 0)))
+1630793426695	Marionette	INFO	Listening on port 34263
+1630793426721	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1630793427260	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1630794557130	geckodriver	INFO	Listening on 127.0.0.1:56865
+1630794557134	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilefEulta"
+1630794557415	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilefEulta/search.json.mozlz4", (void 0)))
+1630794558447	Marionette	INFO	Listening on port 42265
+1630794558546	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1630794559050	Marionette	INFO	Stopped listening on port 42265
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1630794563616	geckodriver	INFO	Listening on 127.0.0.1:48709
+1630794563620	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileGQhDsk"
+1630794563939	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileGQhDsk/search.json.mozlz4", (void 0)))
+1630794564970	Marionette	INFO	Listening on port 43605
+1630794565033	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1630794565739	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1630794616892	geckodriver	INFO	Listening on 127.0.0.1:35671
+1630794616895	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileL4Iqad"
+1630794617193	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileL4Iqad/search.json.mozlz4", (void 0)))
+1630794618239	Marionette	INFO	Listening on port 42365
+1630794618309	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1630794618878	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1630794770765	geckodriver	INFO	Listening on 127.0.0.1:57345
+1630794770769	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileHOBZ7w"
+1630794771054	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileHOBZ7w/search.json.mozlz4", (void 0)))
+1630794772176	Marionette	INFO	Listening on port 43933
+1630794772282	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1630794772828	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1630794821734	geckodriver	INFO	Listening on 127.0.0.1:59547
+1630794821738	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileTCT5T1"
+1630794822010	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileTCT5T1/search.json.mozlz4", (void 0)))
+1630794823449	Marionette	INFO	Listening on port 34591
+1630794823551	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1630794824134	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1630794877439	geckodriver	INFO	Listening on 127.0.0.1:58025
+1630794877443	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileS3YExg"
+1630794877724	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileS3YExg/search.json.mozlz4", (void 0)))
+1630794878854	Marionette	INFO	Listening on port 38155
+1630794878955	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1630794879518	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1630794905904	geckodriver	INFO	Listening on 127.0.0.1:43569
+1630794905908	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileTRW6b3"
+1630794906186	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileTRW6b3/search.json.mozlz4", (void 0)))
+1630794907213	Marionette	INFO	Listening on port 44601
+1630794907319	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1630794907867	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1630795064584	geckodriver	INFO	Listening on 127.0.0.1:51417
+1630795064588	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileoh48Te"
+1630795064870	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileoh48Te/search.json.mozlz4", (void 0)))
+1630795065939	Marionette	INFO	Listening on port 36707
+1630795066001	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1630795066575	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1630795130046	geckodriver	INFO	Listening on 127.0.0.1:34651
+1630795130050	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileGHBWfE"
+1630795130327	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileGHBWfE/search.json.mozlz4", (void 0)))
+1630795131372	Marionette	INFO	Listening on port 35281
+1630795131466	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1630795132034	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1630795180854	geckodriver	INFO	Listening on 127.0.0.1:34881
+1630795180858	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileusRlbU"
+1630795181137	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileusRlbU/search.json.mozlz4", (void 0)))
+1630795182137	Marionette	INFO	Listening on port 35943
+1630795182170	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1630795182734	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1630795239051	geckodriver	INFO	Listening on 127.0.0.1:40199
+1630795239055	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilemXfP6t"
+1630795239332	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilemXfP6t/search.json.mozlz4", (void 0)))
+1630795240335	Marionette	INFO	Listening on port 36007
+1630795240367	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1630795240912	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1630795265469	geckodriver	INFO	Listening on 127.0.0.1:35131
+1630795265473	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileZeE11o"
+1630795265748	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileZeE11o/search.json.mozlz4", (void 0)))
+1630795266789	Marionette	INFO	Listening on port 38887
+1630795266890	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1630795267421	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1630795330014	geckodriver	INFO	Listening on 127.0.0.1:49553
+1630795330016	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile9gbK5a"
+1630795330296	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile9gbK5a/search.json.mozlz4", (void 0)))
+1630795331270	Marionette	INFO	Listening on port 36121
+1630795331336	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1630795331949	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1630795536837	geckodriver	INFO	Listening on 127.0.0.1:46045
+1630795536840	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileIQufvH"
+1630795537122	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileIQufvH/search.json.mozlz4", (void 0)))
+1630795538106	Marionette	INFO	Listening on port 46003
+1630795538153	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1630795538703	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1630795656482	geckodriver	INFO	Listening on 127.0.0.1:40747
+1630795656484	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileWgF9ph"
+1630795656768	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileWgF9ph/search.json.mozlz4", (void 0)))
+1630795657896	Marionette	INFO	Listening on port 42045
+1630795657996	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1630795658599	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1630795954420	geckodriver	INFO	Listening on 127.0.0.1:54975
+1630795954421	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilee6omC2"
+1630795954703	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilee6omC2/search.json.mozlz4", (void 0)))
+1630795955842	Marionette	INFO	Listening on port 44679
+1630795955934	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1630795956479	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1630796035780	geckodriver	INFO	Listening on 127.0.0.1:58617
+1630796035781	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilevlpLL4"
+1630796036074	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilevlpLL4/search.json.mozlz4", (void 0)))
+1630796037202	Marionette	INFO	Listening on port 34185
+1630796037300	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1630796037887	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1630796710154	Marionette	INFO	Stopped listening on port 34185
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1630796728064	geckodriver	INFO	Listening on 127.0.0.1:54371
+1630796728068	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilehraNjt"
+1630796728342	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilehraNjt/search.json.mozlz4", (void 0)))
+1630796729480	Marionette	INFO	Listening on port 38421
+1630796729580	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1630796730209	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1630796746977	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://dev.elsevier.com/gh/gh.min.js, line 2: TypeError: a.querySelector(...) is null
+JavaScript error: https://dev.elsevier.com/gh/gh.min.js, line 2: TypeError: a.querySelector(...) is null
+JavaScript error: https://id.elsevier.com/as/ooeOm/resume/as/authorization.ping?client_id=ELSAPI-PROD&, line 1: ReferenceError: searchStart is not defined
+JavaScript warning: https://id.elsevier.com/as/ooeOm/resume/as/authorization.ping?client_id=ELSAPI-PROD&, line 282: unreachable code after return statement
+JavaScript warning: https://id.elsevier.com/as/ooeOm/resume/as/authorization.ping?client_id=ELSAPI-PROD&, line 285: unreachable code after return statement
+JavaScript warning: https://id.elsevier.com/as/ooeOm/resume/as/authorization.ping?client_id=ELSAPI-PROD&, line 282: unreachable code after return statement
+JavaScript warning: https://id.elsevier.com/as/ooeOm/resume/as/authorization.ping?client_id=ELSAPI-PROD&, line 285: unreachable code after return statement
+1630796865083	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1630798006407	geckodriver	INFO	Listening on 127.0.0.1:51689
+1630798006411	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileX1UpPX"
+1630798006699	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileX1UpPX/search.json.mozlz4", (void 0)))
+1630798007771	Marionette	INFO	Listening on port 41877
+1630798007824	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1630798078155	geckodriver	INFO	Listening on 127.0.0.1:35309
+1630798078159	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileKIX2kx"
+1630798078443	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileKIX2kx/search.json.mozlz4", (void 0)))
+1630798079574	Marionette	INFO	Listening on port 35559
+1630798079672	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1630798089514	Marionette	INFO	Stopped listening on port 35559
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1631066651702	geckodriver	INFO	Listening on 127.0.0.1:60565
+1631066652709	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiletTer0V"
+1631066653022	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiletTer0V/search.json.mozlz4", (void 0)))
+1631066654475	Marionette	INFO	Listening on port 42895
+1631066654524	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1631066656045	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1631066679962	Marionette	INFO	Stopped listening on port 42895
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+JavaScript error: chrome://remote/content/marionette/driver.js, line 2245: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIObserverService.removeObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1631066728334	geckodriver	INFO	Listening on 127.0.0.1:50443
+1631066728335	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilesAHHk3"
+1631066728619	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilesAHHk3/search.json.mozlz4", (void 0)))
+1631066729568	Marionette	INFO	Listening on port 43817
+1631066729660	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1631066731190	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1631066786068	geckodriver	INFO	Listening on 127.0.0.1:59467
+1631066786070	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile17suU3"
+1631066786347	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile17suU3/search.json.mozlz4", (void 0)))
+1631066787387	Marionette	INFO	Listening on port 41579
+1631066787482	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1631066788987	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1631066889191	geckodriver	INFO	Listening on 127.0.0.1:37065
+1631066889194	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiles3aJli"
+1631066889476	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiles3aJli/search.json.mozlz4", (void 0)))
+1631066890524	Marionette	INFO	Listening on port 38623
+1631066890607	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1631066892114	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1631067024420	geckodriver	INFO	Listening on 127.0.0.1:39157
+1631067024422	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilevod57q"
+1631067024705	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilevod57q/search.json.mozlz4", (void 0)))
+1631067025803	Marionette	INFO	Listening on port 40879
+1631067025835	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1631067027153	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1631067104419	geckodriver	INFO	Listening on 127.0.0.1:42031
+1631067104421	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilewsDanH"
+1631067104709	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilewsDanH/search.json.mozlz4", (void 0)))
+1631067105805	Marionette	INFO	Listening on port 45217
+1631067105846	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1631067107259	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1631067312235	geckodriver	INFO	Listening on 127.0.0.1:40569
+1631067312237	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilea3cCVk"
+1631067312545	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilea3cCVk/search.json.mozlz4", (void 0)))
+1631067313548	Marionette	INFO	Listening on port 40529
+1631067313651	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1631067315082	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1631067400889	geckodriver	INFO	Listening on 127.0.0.1:38231
+1631067400890	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilepHp94u"
+1631067401164	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilepHp94u/search.json.mozlz4", (void 0)))
+1631067402185	Marionette	INFO	Listening on port 33157
+1631067402215	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1631067403843	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1631067520740	geckodriver	INFO	Listening on 127.0.0.1:35537
+1631067520742	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileD1vnLQ"
+1631067521029	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileD1vnLQ/search.json.mozlz4", (void 0)))
+1631067522470	Marionette	INFO	Listening on port 38739
+1631067522556	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1631067529157	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1631067775751	Marionette	INFO	Stopped listening on port 38739
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1631067777934	Marionette	INFO	Stopped listening on port 33157
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1631067779798	Marionette	INFO	Stopped listening on port 40529
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1631067781557	Marionette	INFO	Stopped listening on port 45217
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1631067783596	Marionette	INFO	Stopped listening on port 40879
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1631067785912	geckodriver	INFO	Listening on 127.0.0.1:34837
+1631067785914	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileSBYuTw"
+1631067786202	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileSBYuTw/search.json.mozlz4", (void 0)))
+1631067787355	Marionette	INFO	Listening on port 33527
+1631067787429	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1631067788723	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1631067836892	Marionette	INFO	Stopped listening on port 33527
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1631067862597	geckodriver	INFO	Listening on 127.0.0.1:46579
+1631067862599	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile1UvIp5"
+1631067862882	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile1UvIp5/search.json.mozlz4", (void 0)))
+1631067863789	Marionette	INFO	Listening on port 33835
+1631067863812	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1631067865385	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1631067943266	geckodriver	INFO	Listening on 127.0.0.1:34179
+1631067943268	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilekuSk1h"
+1631067943543	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilekuSk1h/search.json.mozlz4", (void 0)))
+1631067944559	Marionette	INFO	Listening on port 45023
+1631067944580	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1631067945805	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1631068110524	geckodriver	INFO	Listening on 127.0.0.1:50033
+1631068110526	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilelOzFWe"
+1631068110816	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilelOzFWe/search.json.mozlz4", (void 0)))
+1631068111855	Marionette	INFO	Listening on port 40433
+1631068111939	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1631068113693	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1631068560880	Marionette	INFO	Stopped listening on port 40433
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 109: Error: Got a request https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 109: Error: Got a request https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css without a browsingContextID set
+1631069411705	Marionette	INFO	Stopped listening on port 33835
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1631069413338	Marionette	INFO	Stopped listening on port 45023
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1631069771323	geckodriver	INFO	Listening on 127.0.0.1:49417
+1631069771327	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilexTYKfZ"
+1631069771602	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilexTYKfZ/search.json.mozlz4", (void 0)))
+1631069772536	Marionette	INFO	Listening on port 33873
+1631069772639	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1631069777793	Marionette	INFO	Stopped listening on port 33873
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1631107637076	geckodriver	INFO	Listening on 127.0.0.1:43887
+1631107637078	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilemxCkip"
+1631107637354	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilemxCkip/search.json.mozlz4", (void 0)))
+1631107638287	Marionette	INFO	Listening on port 34585
+1631107638389	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1631107640830	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1631107673787	geckodriver	INFO	Listening on 127.0.0.1:57561
+1631107673788	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileNRdIaF"
+1631107674072	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileNRdIaF/search.json.mozlz4", (void 0)))
+1631107675089	Marionette	INFO	Listening on port 40135
+1631107675102	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1631107676957	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1631107737782	Marionette	INFO	Stopped listening on port 40135
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1631107761744	geckodriver	INFO	Listening on 127.0.0.1:50049
+1631107761746	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilegpj001"
+1631107762029	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilegpj001/search.json.mozlz4", (void 0)))
+1631107763470	Marionette	INFO	Listening on port 35421
+1631107763559	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1631107765738	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1631108009945	geckodriver	INFO	Listening on 127.0.0.1:36373
+1631108009946	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile0bSqjF"
+1631108010222	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile0bSqjF/search.json.mozlz4", (void 0)))
+1631108011189	Marionette	INFO	Listening on port 37545
+1631108011259	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1631108013260	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1631108014889	Marionette	INFO	Stopped listening on port 35421
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1631108101754	Marionette	INFO	Stopped listening on port 37545
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1631108118219	geckodriver	INFO	Listening on 127.0.0.1:49849
+1631108118221	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileCwNJwH"
+1631108118502	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileCwNJwH/search.json.mozlz4", (void 0)))
+1631108119535	Marionette	INFO	Listening on port 46603
+1631108119633	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1631108121258	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1631108176518	Marionette	INFO	Stopped listening on port 46603
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1631108191593	geckodriver	INFO	Listening on 127.0.0.1:51321
+1631108191595	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileWCDhSa"
+1631108191877	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileWCDhSa/search.json.mozlz4", (void 0)))
+1631108192905	Marionette	INFO	Listening on port 42435
+1631108193006	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1631108194877	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1631108250109	Marionette	INFO	Stopped listening on port 42435
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1631108269097	geckodriver	INFO	Listening on 127.0.0.1:41517
+1631108269099	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileaInqUK"
+1631108269375	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileaInqUK/search.json.mozlz4", (void 0)))
+1631108270495	Marionette	INFO	Listening on port 43317
+1631108270512	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1631108271973	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1631108347820	geckodriver	INFO	Listening on 127.0.0.1:48599
+1631108347822	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileqzSNWR"
+1631108348107	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileqzSNWR/search.json.mozlz4", (void 0)))
+1631108349128	Marionette	INFO	Listening on port 33441
+1631108349236	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1631108350973	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1631108401654	Marionette	INFO	Stopped listening on port 33441
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1631108403839	Marionette	INFO	Stopped listening on port 43317
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1631109446026	geckodriver	INFO	Listening on 127.0.0.1:44389
+1631109446029	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileLeUsat"
+1631109446317	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileLeUsat/search.json.mozlz4", (void 0)))
+1631109447326	Marionette	INFO	Listening on port 34921
+1631109447342	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1631109495450	geckodriver	INFO	Listening on 127.0.0.1:43897
+1631109495455	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileqi5f3M"
+1631109495750	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileqi5f3M/search.json.mozlz4", (void 0)))
+1631109496765	Marionette	INFO	Listening on port 38905
+1631109496867	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 109: Error: Got a request https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css without a browsingContextID set
+1631109685720	geckodriver	INFO	Listening on 127.0.0.1:42735
+1631109685724	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilell3cTc"
+1631109685999	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilell3cTc/search.json.mozlz4", (void 0)))
+1631109687082	Marionette	INFO	Listening on port 37563
+1631109687136	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 109: Error: Got a request https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css without a browsingContextID set
+1631109828420	geckodriver	INFO	Listening on 127.0.0.1:41053
+1631109828424	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileiZbEbO"
+1631109828699	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileiZbEbO/search.json.mozlz4", (void 0)))
+1631109829742	Marionette	INFO	Listening on port 33979
+1631109829846	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1631109842753	geckodriver	INFO	Listening on 127.0.0.1:41187
+1631109842757	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiley7NWIL"
+1631109843046	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiley7NWIL/search.json.mozlz4", (void 0)))
+1631109844572	Marionette	INFO	Listening on port 38861
+1631109844706	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 109: Error: Got a request https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css without a browsingContextID set
+JavaScript warning: resource://devtools/client/shared/demangle.js, line 0: Successfully compiled asm.js code (total compilation time 46ms)
+1631110203632	geckodriver	INFO	Listening on 127.0.0.1:41463
+1631110203635	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileYoW689"
+1631110203916	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileYoW689/search.json.mozlz4", (void 0)))
+1631110204843	Marionette	INFO	Listening on port 43877
+1631110204947	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1631110251737	geckodriver	INFO	Listening on 127.0.0.1:48617
+1631110251741	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilewQuEjZ"
+1631110252022	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilewQuEjZ/search.json.mozlz4", (void 0)))
+1631110252971	Marionette	INFO	Listening on port 35491
+1631110253060	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1631110316479	geckodriver	INFO	Listening on 127.0.0.1:36171
+1631110316483	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileKBaRlJ"
+1631110316757	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileKBaRlJ/search.json.mozlz4", (void 0)))
+1631110317896	Marionette	INFO	Listening on port 45415
+1631110317995	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1631110474330	geckodriver	INFO	Listening on 127.0.0.1:36531
+1631110475334	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileZB2k2R"
+1631110475730	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileZB2k2R/search.json.mozlz4", (void 0)))
+1631110476813	Marionette	INFO	Listening on port 37129
+1631110476848	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1631110673079	geckodriver	INFO	Listening on 127.0.0.1:34083
+1631110674088	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileceYNt8"
+1631110674575	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileceYNt8/search.json.mozlz4", (void 0)))
+1631110677637	Marionette	INFO	Listening on port 36269
+1631110677730	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1631110989593	geckodriver	INFO	Listening on 127.0.0.1:37665
+1631110990593	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileWgmIJw"
+1631110990891	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileWgmIJw/search.json.mozlz4", (void 0)))
+1631110992010	Marionette	INFO	Listening on port 33319
+1631110992106	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 109: Error: Got a request https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css without a browsingContextID set
+1631111103463	geckodriver	INFO	Listening on 127.0.0.1:48619
+1631111103467	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileT2NUoC"
+1631111103772	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileT2NUoC/search.json.mozlz4", (void 0)))
+1631111104889	Marionette	INFO	Listening on port 42819
+1631111104981	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1631111129015	geckodriver	INFO	Listening on 127.0.0.1:38253
+1631111129019	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile5JknGp"
+1631111129294	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile5JknGp/search.json.mozlz4", (void 0)))
+1631111130319	Marionette	INFO	Listening on port 36417
+1631111130334	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1631111143797	geckodriver	INFO	Listening on 127.0.0.1:38983
+1631111143801	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileShMbzb"
+1631111144079	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileShMbzb/search.json.mozlz4", (void 0)))
+1631111145171	Marionette	INFO	Listening on port 46585
+1631111145213	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1631111191131	geckodriver	INFO	Listening on 127.0.0.1:36963
+1631111191135	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile1340Gc"
+1631111191410	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile1340Gc/search.json.mozlz4", (void 0)))
+1631111192498	Marionette	INFO	Listening on port 43657
+1631111192548	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1631111211035	geckodriver	INFO	Listening on 127.0.0.1:38153
+1631111211038	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileJuhRh4"
+1631111211325	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileJuhRh4/search.json.mozlz4", (void 0)))
+1631111212431	Marionette	INFO	Listening on port 45491
+1631111212460	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1631111231120	geckodriver	INFO	Listening on 127.0.0.1:38825
+1631111231124	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilehBWlBt"
+1631111231403	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilehBWlBt/search.json.mozlz4", (void 0)))
+1631111232429	Marionette	INFO	Listening on port 33471
+1631111232535	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1631111429632	geckodriver	INFO	Listening on 127.0.0.1:55791
+1631111429636	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileRkvh5L"
+1631111429911	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileRkvh5L/search.json.mozlz4", (void 0)))
+1631111431047	Marionette	INFO	Listening on port 38609
+1631111431148	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1631113492210	geckodriver	INFO	Listening on 127.0.0.1:52093
+1631113492214	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile8IBdOY"
+1631113492496	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile8IBdOY/search.json.mozlz4", (void 0)))
+1631113493542	Marionette	INFO	Listening on port 35911
+1631113493626	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1631113512732	geckodriver	INFO	Listening on 127.0.0.1:51979
+1631113512736	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileeCjv8D"
+1631113513016	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileeCjv8D/search.json.mozlz4", (void 0)))
+1631113514530	Marionette	INFO	Listening on port 44317
+1631113514550	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1631113531006	geckodriver	INFO	Listening on 127.0.0.1:38791
+1631113531010	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileQUlqtv"
+1631113531287	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileQUlqtv/search.json.mozlz4", (void 0)))
+1631113532393	Marionette	INFO	Listening on port 33939
+1631113532422	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1631113690925	geckodriver	INFO	Listening on 127.0.0.1:60239
+1631113690927	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiledBQDaw"
+1631113691222	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiledBQDaw/search.json.mozlz4", (void 0)))
+1631113692274	Marionette	INFO	Listening on port 43129
+1631113692344	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1631114343576	geckodriver	INFO	Listening on 127.0.0.1:37589
+1631114343578	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiletYg1ij"
+1631114343853	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiletYg1ij/search.json.mozlz4", (void 0)))
+1631114344956	Marionette	INFO	Listening on port 33093
+1631114344989	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1631115391399	geckodriver	INFO	Listening on 127.0.0.1:59421
+1631115391401	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileKIVN1k"
+1631115391686	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileKIVN1k/search.json.mozlz4", (void 0)))
+1631115392723	Marionette	INFO	Listening on port 39425
+1631115392818	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1631115789556	geckodriver	INFO	Listening on 127.0.0.1:37945
+1631115789558	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileo9nM66"
+1631115789841	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileo9nM66/search.json.mozlz4", (void 0)))
+1631115790758	Marionette	INFO	Listening on port 44677
+1631115790771	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1631115966540	geckodriver	INFO	Listening on 127.0.0.1:51735
+1631115966542	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilepJy0TA"
+1631115966835	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilepJy0TA/search.json.mozlz4", (void 0)))
+1631115967776	Marionette	INFO	Listening on port 45771
+1631115967854	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1631116755213	geckodriver	INFO	Listening on 127.0.0.1:50493
+1631116755214	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilegsO9Pp"
+1631116755494	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilegsO9Pp/search.json.mozlz4", (void 0)))
+1631116756567	Marionette	INFO	Listening on port 37491
+1631116756626	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1631116895066	geckodriver	INFO	Listening on 127.0.0.1:48271
+1631116895069	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileqWfvRN"
+1631116895347	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileqWfvRN/search.json.mozlz4", (void 0)))
+1631116896294	Marionette	INFO	Listening on port 46189
+1631116896412	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1631116980938	geckodriver	INFO	Listening on 127.0.0.1:38103
+1631116980940	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile2YpLvP"
+1631116981229	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile2YpLvP/search.json.mozlz4", (void 0)))
+1631116982124	Marionette	INFO	Listening on port 46553
+1631116982152	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1631136861515	Marionette	INFO	Stopped listening on port 44677
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+

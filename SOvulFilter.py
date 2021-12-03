@@ -7,9 +7,10 @@ TAG_RE = re.compile(r'<[^>]+>')
 SO_rule = "(OSVDB|NVD|CVE|XXE|security|cross-site|brute force|injection|denial of service|DOS|Heap buffer overflow|Integer division by zero|Undefined behavior|Heap OOB write|Division by zero|Crashes the Python interpreter|Heap overflow|Uninitialized memory accesses|Heap OOB access|Heap underflow|Heap OOB|Heap OOB read|Segmentation faults|Segmentation fault|seg fault|Buffer overflow|Null pointer dereference|FPE runtime|segfaults|segfault)"
 bug_rule = "(bug|Bug|Fix|fix|fixed|Fixed|Wrong|wrong|Error|error|nan|inf|Issue|issue|defect|Defect|Fault|fault|fail|Failed|Failing|failing|crash|crashed|Crash|Crashed)"
 crazy_rule = "(denial of service|DOS|XXE|remote code execution|bopen redirect|OSVDB|bvuln|CVE|XSS|ReDoS|NVD|malicious|x−frame−options|attack|cross-site|exploit|directory traversal|RCE|XSRF|clickjack|session-fixation|hijack|advisory|insecure|security|cross-origin|unauthori[z|s]ed|infinite.loop|brute force|bypass|constant time|crack|credential|expos(e|ing|ure)|hack|harden|injection|lockout|overflow|password|PoC|proof of concept|priveale|(in)?secur(e|ity)|Heap buffer overflow|Integer division by zero|Undefined behavior|Heap OOB write|Division by zero|Crashes the Python interpreter|Heap overflow|Uninitialized memory accesses|Heap OOB access|Heap underflow|Heap OOB|Heap OOB read|Segmentation faults|Segmentation fault|seg fault|Buffer overflow|Null pointer dereference|FPE runtime|segfaults|segfault|attack|authenticate|authentication|checkclickjack|compromise|constant-time|corrupt|crack|craft|credential|cross Site Request Forgery|cross-Site Request Forgery|CVE-|Dan Rosenberg|deadlock|deep recursion|denial-of-service|directory traversal|disclosure|divide by 0|divide by zero|divide-by-zero|division by zero|division by 0|division-by-zero|division-by-0|double free|endless loop|exhaust|dos|fail|fixes CVE-|forgery|fuzz|general protection fault|GPF|grsecurity|guard|leak|initialize|insecure|invalid|KASAN|info leak|limit|lockout|long loop|man in the middle|man-in-the-middle|mishandle|MITM|negative|null deref|null-deref|NULL dereference|null function pointer|null pointer dereference|null-ptr|null-ptr-deref|off-by-one|OOB|oops|open redirect|oss-security|out of array|out of bound|out-of-bound|overflow|overread|override|overrun|panic|password|poison|prevent|privesc|privilege|protect|race|race condition|RCE|remote code execution|replay|sanity check|sanity-check|security|security fix|security issue|security problem|session fixation|snprintf|spoof|syzkaller|trinity|unauthorized|undefined behavior|underflow|unexpected|uninitialize|unrealize|use after free|use-after-free|valid|verification|verifies|verify|violate|violation|vsecurity|vuln|vulnerab|XML External Entity)"
+crazy_rule_simplified = "(denial of service|DOS|XXE|remote code execution|OSVDB|bvuln|CVE|XSS|ReDoS|NVD|malicious|attack|cross-site|exploite|RCE|XSRF|hijack|insecure|security|cross-origin|infinite.loop|brute force|bypass|crack|credential|overflow|password|PoC|proof of concept|(in)?secur(e|ity)|Heap buffer overflow|Integer division by zero|Undefined behavior|Heap OOB write|Division by zero|Crashes the Python interpreter|Heap overflow|Uninitialized memory accesses|Heap OOB access|Heap underflow|Heap OOB|Heap OOB read|Segmentation faults|Segmentation fault|seg fault|Buffer overflow|Null pointer dereference|FPE runtime|segfaults|segfault|attack|authenticate|authentication|checkclickjack|compromise|corrupt|crack|craft|Cross Site Request Forgery|cross-Site Request Forgery|CVE-|deadlock|deep recursion|denial-of-service|directory traversal|disclosure|divide by 0|divide by zero|divide-by-zero|division by zero|division by 0|division-by-zero|division-by-0|double free|endless loop|exhaust|dos|fail|fixes CVE-|forgery|fuzz|general protection fault|GPF|grsecurity|guard|leak|initialize|insecure|invalid|info leak|limit|long loop|mishandle|MITM|null deref|null-deref|NULL dereference|null function pointer|null pointer dereference|null-ptr|null-ptr-deref|OOB|oss-security|out of array|out of bound|out-of-bound|overflow|overread|override|overrun|prevent|protect|race|race condition|RCE|remote code execution|sanity check|sanity-check|security|security fix|security issue|security problem|unauthorized|undefined behavior|underflow|unexpected|uninitialize|use after free|use-after-free|violate|violation|vsecurity|vuln|vulnerab|vulnerability|vulnerable|Failure|failure|bug|Bug|fault|Fault|Defect|defect)"
 
 def loadFile():
-    for root, dir, files in os.walk('./SO query results'):
+    for root, dir, files in os.walk('D:\\vsprojects\\deepLearningbugs\\SO query results'):
         for file in files:
             print(file)
             rows = []
@@ -19,33 +20,36 @@ def loadFile():
                 counter = 0
                 for row in csv_reader:
                     header = []
-                    # for k, v in row.items():
-                    #     header.append(k)        
-                    # row['Body'] = TAG_RE.sub('', row['Body'])
-                    # row['Body'] = row['Body'].strip('\n')
-                    b = re.findall(crazy_rule, row[8])
+                        # for k, v in row.items():
+                        #     header.append(k)        
+                        # row['Body'] = TAG_RE.sub('', row['Body'])
+                        # row['Body'] = row['Body'].strip('\n')
+                    b = re.findall(crazy_rule_simplified, row[8])
                     if b:
-                        try:
-                            for j in range(len(b)):
-                                label[b[j][0]] += 1
-                        except ValueError:
-                            print('Key not found!')
-                        if re.search(r'(how to|How to|What is|what is|does|Does|do|Do|where|Where|How|how|what|What|is|Is)', row[8]):
-                            print('Found')
-                        else:
-                            rows.append([row[0], row[8]])
+                        splited = row[11].split(' ')
+                        datee = splited[0].split('-')
+                        if int(datee[0]) >= 2018: 
+                                # try:
+                                #     for j in range(len(b)):
+                                #         label[b[j][0]] += 1
+                                # except:
+                                    # print('Key not found!')
+                            if re.search(r'(how to|How to|What is|what is|does|Does|do|Do|where|Where|How|how|what|What|is|Is)', row[8]):
+                                print('Found')
+                            else:
+                                rows.append([row[0], row[8]])
 
-            if not os.path.exists('./SO filtered vul'):
-                os.makedirs('./SO filtered vul')
-            with open('./SO filtered vul/'+file, 'w', encoding='utf-8') as f:
+            if not os.path.exists('D:\\vsprojects\\deepLearningbugs\\SO filtered vul'):
+                os.makedirs('D:\\vsprojects\\deepLearningbugs\\SO filtered vul')
+            with open('D:\\vsprojects\\deepLearningbugs\\SO filtered vul\\'+file, 'w', encoding='utf-8') as f:
                 wr = csv.writer(f, delimiter=',')
-                #for item in rows:
+                    #for item in rows:
                 wr.writerows(rows)
-            # with open('./SO filtered vul/'+file, 'w') as f:
-            #     wr = csv.DictWriter(f, fieldnames=header)
-            #     wr.writeheader()
-            #     for item in rows:
-            #         wr.writerow(item)
+                # with open('./SO filtered vul/'+file, 'w') as f:
+                #     wr = csv.DictWriter(f, fieldnames=header)
+                #     wr.writeheader()
+                #     for item in rows:
+                #         wr.writerow(item)
             file = file.replace('.csv', '')
             with open('SO_keyword_mapping_'+file+'.json', 'w') as fp:
                 json.dump(label, fp, indent=4)

@@ -6,3 +6,5 @@ SO mappings/**
 SO query results/**
 github commits/**
 github mappings/**
+results/**
+*.txt

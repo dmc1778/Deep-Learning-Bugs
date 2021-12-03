@@ -1,4 +1,3 @@
-
 import getopt
 import json
 import os
@@ -11,15 +10,15 @@ from csv import writer
 import re
 import requests as r
 
-token = os.getenv('GITHUB_TOKEN', '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')
+token = os.getenv('GITHUB_TOKEN', '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')
 
 
 potential_commits = []
 
 memory = {}
 
-githubUser = 'scipy'
-currentRepo = 'scipy'
+githubUser = 'pytorch'
+currentRepo = 'pytorch'
 qm = '?'
 page = 'per_page=100'
 amp = '&'
@@ -31,7 +30,7 @@ response = r.get(branchLink, headers={'Authorization': 'token {}'.format(token)}
 branches = json.loads(response.text)
 
 for item in branches:
-    if item['name'] == 'master':
+    if item['name'] == '1.7':
         branch_sha = item['commit']['sha']
 
 def get_commits(githubUser, currentRepo, qm, page, amp, sh_string, last_com , page_number, label):
@@ -55,18 +54,27 @@ def get_commits(githubUser, currentRepo, qm, page, amp, sh_string, last_com , pa
     weak_rule = "(denial of service|\bDOS\b|\bXXE\b|remote code execution|bopen redirect|\bOSVDB\b|\bbvuln\b|\bCVE\b|\bXSS\b|\bReDoS\b|\bNVD\b|malicious|x−frame−options|attack|cross-site|exploit|directory traversal|\bRCE\b|\bXSRF\b|clickjack|session-fixation|hijack|advisory|insecure|security|\bcross-origin|\bunauthori[z|s]ed|infinite.loop|brute force|bypass|constant time|crack|credential|\bexpos (e|ing)\b|hack|harden|injection|lockout|overflow|password|\bPoC\b|proof of concept|poison|priveale|\b(in)?secur(e|ity)|(de)?serialize|spoof|timing|traversal)(.*?)$"
     strong_rule = "(denial of service|DOS|XXE|remote code execution|bopen redirect|OSVDB|bvuln|CVE|XSS|ReDoS|NVD|malicious \ |x−frame−options|attack|cross-site|exploit|directory traversal|RCE|XSRF|clickjack|session-fixation|hijack|advisory|insecure|security|cross-origin|unauthori[z|s]ed|infinite.loop|brute force|bypass|constant time|crack|credential|expos(e|ing)|hack|harden|injection|lockout|overflow|password|PoC|proof of concept|priveale|(in)?secur(e|ity)|Heap buffer overflow|Integer division by zero|Undefined behavior|Heap OOB write|Division by zero|Crashes the Python interpreter|Heap overflow|Uninitialized memory accesses|Heap OOB access|Heap underflow|Heap OOB|Heap OOB read|Segmentation faults|Segmentation fault|seg fault|Buffer overflow|Null pointer dereference|FPE runtime|segfaults|segfault)"
     crazy_rule = "(denial of service|DOS|XXE|remote code execution|bopen redirect|OSVDB|bvuln|CVE|XSS|ReDoS|NVD|malicious|x−frame−options|attack|cross-site|exploit|directory traversal|RCE|XSRF|clickjack|session-fixation|hijack|advisory|insecure|security|cross-origin|unauthori[z|s]ed|infinite.loop|brute force|bypass|constant time|crack|credential|expos(e|ing|ure)|hack|harden|injection|lockout|overflow|password|PoC|proof of concept|priveale|(in)?secur(e|ity)|Heap buffer overflow|Integer division by zero|Undefined behavior|Heap OOB write|Division by zero|Crashes the Python interpreter|Heap overflow|Uninitialized memory accesses|Heap OOB access|Heap underflow|Heap OOB|Heap OOB read|Segmentation faults|Segmentation fault|seg fault|Buffer overflow|Null pointer dereference|FPE runtime|segfaults|segfault|attack|authenticate|authentication|checkclickjack|compromise|constant-time|corrupt|crack|craft|credential|cross Site Request Forgery|cross-Site Request Forgery|CVE-|Dan Rosenberg|deadlock|deep recursion|denial-of-service|directory traversal|disclosure|divide by 0|divide by zero|divide-by-zero|division by zero|division by 0|division-by-zero|division-by-0|double free|endless loop|exhaust|dos|fail|fixes CVE-|forgery|fuzz|general protection fault|GPF|grsecurity|guard|leak|initialize|insecure|invalid|KASAN|info leak|limit|lockout|long loop|loop|man in the middle|man-in-the-middle|mishandle|MITM|negative|null deref|null-deref|NULL dereference|null function pointer|null pointer dereference|null-ptr|null-ptr-deref|off-by-one|OOB|oops|open redirect|oss-security|out of array|out of bound|out-of-bound|overflow|overread|override|overrun|panic|password|poison|prevent|privesc|privilege|protect|race|race condition|RCE|remote code execution|replay|sanity check|sanity-check|security|security fix|security issue|security problem|session fixation|snprintf|spoof|syzkaller|trinity|unauthorized|undefined behavior|underflow|unexpected|uninitialize|unrealize|use after free|use-after-free|valid|verification|verifies|verify|violate|violation|vsecurity|vuln|vulnerab|XML External Entity)"
-    a = re.findall(crazy_rule, commit['commit']['message'])
-    if a:
-      try:
-        for j in range(len(a)):
-          label[a[j][0]] += 1
-      except ValueError:
-        print('Key not found!')
-      _date = commit['commit']['committer']['date']
-      sdate = _date.split('-')
-      if int(sdate[0]) >= 2015:
-          print(len(potential_commits))
-          potential_commits.append(commit['html_url'])
+    crazy_rule_simplified = "(denial of service|DOS|XXE|remote code execution|OSVDB|bvuln|CVE|XSS|ReDoS|NVD|malicious|attack|cross-site|exploite|RCE|XSRF|hijack|insecure|security|cross-origin|infinite.loop|brute force|bypass|crack|credential|overflow|password|PoC|proof of concept|(in)?secur(e|ity)|Heap buffer overflow|Integer division by zero|Undefined behavior|Heap OOB write|Division by zero|Crashes the Python interpreter|Heap overflow|Uninitialized memory accesses|Heap OOB access|Heap underflow|Heap OOB|Heap OOB read|Segmentation faults|Segmentation fault|seg fault|Buffer overflow|Null pointer dereference|FPE runtime|segfaults|segfault|attack|authenticate|authentication|checkclickjack|compromise|corrupt|crack|craft|Cross Site Request Forgery|cross-Site Request Forgery|CVE-|deadlock|deep recursion|denial-of-service|directory traversal|disclosure|divide by 0|divide by zero|divide-by-zero|division by zero|division by 0|division-by-zero|division-by-0|double free|endless loop|exhaust|dos|fail|fixes CVE-|forgery|fuzz|general protection fault|GPF|grsecurity|guard|leak|initialize|insecure|invalid|info leak|limit|long loop|mishandle|MITM|null deref|null-deref|NULL dereference|null function pointer|null pointer dereference|null-ptr|null-ptr-deref|OOB|oss-security|out of array|out of bound|out-of-bound|overflow|overread|override|overrun|prevent|protect|race|race condition|RCE|remote code execution|sanity check|sanity-check|security|security fix|security issue|security problem|unauthorized|undefined behavior|underflow|unexpected|uninitialize|use after free|use-after-free|violate|violation|vsecurity|vuln|vulnerab|vulnerability|vulnerable|Failure|failure|bug|Bug|fault|Fault|Defect|defect)"
+    very_strong_rule = r"\b denial of service\b|\bDOS\b|\bsegfault\b|\bsegfaults\b|\bseg faul\b|\bseg faults\b|\bsegmentation faults\b|\bdeadlock\b|\bDeadlock\b|bdead lock\b|\bDead lock\b|\bMemory Leak\b|\bMemory leak\b|\bNull Pointer Dereference\b|\bNull pointer dereference\b|\binteger overflow\b|\binteger underflow\b|\bOverflow\b|\boverflow\b|\bunderflow\b|\bUnderflow\b|\bdivision by zero\b|\bDivision by zero\b|\bby zero\b|\bBy zero\b|\bout of bound read\b|\bOut of bound\b|\bOut of\b|\bout of\b|\bnullptr\b|\bpointer\b|\bPointer\b|\binfinite\b|\bInfinite\b|\binfinite loop\b|\bInifinite loop\b|\bRace\b|\brace condition\b|\brace\b|\bstack overflow\b|\bafrer free\b|\bAfter free\b|\bbuffer overflow\b|\bBuffer Overflow\b|\bheap\b|\bHeap\b|\bdouble free\b"
+    ass = 'DOS'
+    # commit['commit']['message']
+    a = re.findall(very_strong_rule, commit['commit']['message'])
+    _date = commit['commit']['committer']['date']
+    sdate = _date.split('-')
+    print('The year is:  {}'.format(int(sdate[0])))
+    # if a:
+      
+    #   # try:
+    #   #   for j in range(len(a)):
+    #   #     label[a[j][0]] += 1
+    #   # except ValueError:
+    #   #   print('Key not found!')
+    #   _date = commit['commit']['committer']['date']
+    #   sdate = _date.split('-')
+    #   print('The year is:  {}'.format(int(sdate[0])))
+    #   # if int(sdate[0]) >= 2016 and int(sdate[0]) < 2018:
+    #   #     print(len(potential_commits))
+    #   #     potential_commits.append(commit['html_url'])
 
     if i == len(first_100_commits)-1:
         last_com = commit['sha']
@@ -95,8 +103,8 @@ def main():
     for item in potential_commits:
         f.write("%s\n" % item)
 
-  with open('Github_keyword_mapping_'+currentRepo+'.json', 'w') as fp:
-      json.dump(label, fp, indent=4)
+  # with open('Github_keyword_mapping_'+currentRepo+'.json', 'w') as fp:
+  #     json.dump(label, fp, indent=4)
 
 if __name__ == "__main__":
   main()

@@ -2,17 +2,11 @@ import json
 import os
 import re
 import requests as r
-import optparse, argparse
+import argparse
 import sys
 import random
 
-# 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
-
 potential_commits = []
-
-memory = {}
-
-
 
 def get_commits(githubUser, currentRepo, qm, page, amp, sh_string, last_com , page_number, start_date, branch_sha, token):
 
@@ -40,7 +34,7 @@ def get_commits(githubUser, currentRepo, qm, page, amp, sh_string, last_com , pa
     if _match:
       _date = commit['commit']['committer']['date']
       sdate = _date.split('-')
-      print('Analyzing the year:  {}'.format(int(sdate[0])))
+      print('I found a relevant commit from:  {}'.format(int(sdate[0])))
       if int(sdate[0]) >= 2016 and int(sdate[0]) < 2018:
           print(len(potential_commits))
           potential_commits.append(commit['html_url'])
